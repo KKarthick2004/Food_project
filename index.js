@@ -20,7 +20,7 @@ app.use("/card",card)
 
 async function connect() {
     try {
-        await mongoose.connect("mongodb+srv://karthickk2022:Karthick2004@reciepe.vc4jidx.mongodb.net/Form?retryWrites=true&w=majority&appName=reciepe");
+        await mongoose.connect("mongodb+srv://karthick:Karthick@cluster0.bn3vm7i.mongodb.net/Food?retryWrites=true&w=majority&appName=Cluster0");
         console.log("Connected to MongoDB");
     } catch (err) {
         console.error("can not connect");
